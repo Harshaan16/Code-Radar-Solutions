@@ -2,6 +2,6 @@
 int main() {
     char S[100];
     scanf("%c", S);
-    printf("%c" and "%c", S);
+    printf(You entered: "%c" and "%c", S);
     return 0;
 }
