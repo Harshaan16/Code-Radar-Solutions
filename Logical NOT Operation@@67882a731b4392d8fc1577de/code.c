@@ -5,6 +5,14 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
+    int a;
+    scanf("%d",&a);
+    if(a>!0){
+        printf("True",b)
+    }
+    else{
+        printf("False")
+    }
+    
     return 0;
 }
