@@ -9,5 +9,5 @@ int main(){
     else if(b>a)
     printf("%d");
     else
-    printf("Equal")
+    printf("")
 }
