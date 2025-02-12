@@ -5,9 +5,9 @@ int main(){
     scanf("%d %d",&a,%b);
 
     if(a>b)
-    printf("a",a);
+    printf("a",a,b);
     else if(b>a)
-    printf("b",b);
+    printf("b",b,a);
     else
     printf("")
 }
