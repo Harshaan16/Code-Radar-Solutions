@@ -1,12 +1,12 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int n,product,i;
+    int n,i;
     scanf("%d",&n);
-    product=1;
+    
     for(i=1;i<=n;i++){
-        product *=i;
+
     }
-    printf("%d",product);
+    printf("%d",i*n);
     return 0;
 }
