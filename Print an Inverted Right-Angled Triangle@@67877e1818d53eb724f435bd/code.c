@@ -4,11 +4,11 @@ int main() {
     printf("Enter the number of rows: ");
     scanf("%d", &N);
     
-    for (int i = N; i > 0; i--) { // Loop for each row
-        for (int j = 0; j < i; j++) { // Loop to print stars
-            printf("*");
+    for (int i = N; i > 0; i--) { 
+        for (int j = 0; j < i; j++) {
+            printf(" * ");
         }
-        printf("\n"); // Move to the next line
+        printf("\n");
     }
     
     return 0;
